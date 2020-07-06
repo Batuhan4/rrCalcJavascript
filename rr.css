@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Casual Contact MF';
+}
+
+.header {
+  padding: 7%;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 23px;
+}
+.toplama {
+  height: 100%;
+}
+table,
+th {
+  display: inline-block;
+  margin-right: 100px;
+  border-style: solid;
+}
+td {
+  text-align: right;
+  margin-left: 50px;
+  border-style: solid;
+  width: 150px;
+  background-color: rgb(255, 255, 157);
+}
+.bosluk {
+  min-width: 100px;
+  min-height: 100px;
+
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton {
+  width: 250px;
+  height: 100px;
+  background-color: rgb(255, 215, 107);
+  color: #000000;
+  border-radius: 100px;
+  font-size: medium;
+  transform: translate(0px, -60px);
+  font-family: 'Casual Contact MF';
+  position: absolute;
+  box-sizing: border-box;
+
+  font-size: 2.5em;
+}
+.onur {
+  text-align: center;
+  transform: translate(0px, 13px);
+}
